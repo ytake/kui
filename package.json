@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npx webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-dropzone": "^5.1.0",
+    "@types/webpack": "^4.41.26",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.1.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21"
+  }
+}
